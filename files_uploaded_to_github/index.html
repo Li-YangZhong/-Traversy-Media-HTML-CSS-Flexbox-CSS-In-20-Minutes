@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        @media(min-width: 468px) {
+            .container-1 {
+                display: flex;
+                /* align-items: flex-end; */
+                /* align-items: center; */
+                /* flex-direction: column; */
+            }
+
+            .container-2 {
+                display: flex;
+                /* justify-content: flex-start; */
+                /* justify-content: flex-end; */
+                /* justify-content: center; */
+                justify-content: space-between;
+                /* justify-content: space-around; */
+            }
+
+        }
+
+        .container-3 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .container-1 div,
+        .container-2 div,
+        .container-3 div {
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .box-1 {
+            flex: 2;
+            order: 2;
+        }
+
+        .box-2 {
+            flex: 1;
+            order: 1;
+        }
+
+        .box-3 {
+            flex: 1;
+            order: 3;
+        }
+
+        .container-2-box {
+            /* width: 27%; */
+            flex-basis: 27%;
+        }
+
+        .container-3-box {
+            flex-basis: 12%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-1">
+        <div class="box-1">
+            <h3>Box One</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box-2">
+            <h3>Box Two</h3>
+            <p>Voluptates magnam delectus dicta voluptatibus sunt perferendis dolores.</p>
+        </div>
+        <div class="box-3">
+            <h3>Box Three</h3>
+            <p>Asperiores dolores voluptatem quam labore molestias neque doloribus.</p>
+        </div>
+    </div>
+
+
+    <div class="container-2">
+        <div class="container-2-box">
+            <h3>Box 4</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet ab eum expedita cum corrupti repellat
+                porro iusto, culpa vel dolorum, omnis totam laborum similique fugiat.</p>
+        </div>
+        <div class="container-2-box">
+            <h3>Box 5</h3>
+            <p>Quibusdam neque suscipit, recusandae quasi quos ipsum sed sint! At eaque sequi maiores quibusdam?
+                Voluptatibus, fuga voluptate eos atque hic perferendis ipsam in dolorem iure!</p>
+        </div>
+        <div class="container-2-box">
+            <h3>Box 6</h3>
+            <p>Quas eligendi voluptatum veniam fuga nulla esse. Laboriosam voluptatum cum rem totam fugit ab quis
+                recusandae, temporibus facere neque, odio illo. Commodi magnam dolore voluptas!</p>
+        </div>
+    </div>
+
+    <div class="container-3">
+        <div class="container-3-box">
+            <h3>Box 7</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, quasi fugit accusamus facere natus quibusdam temporibus ea rerum fuga cum voluptas libero aliquam culpa! Blanditiis itaque veniam ipsa. Cum voluptas iusto eos.</p>
+        </div>
+        <div class="container-3-box">
+            <h3>Box 8</h3>
+            <p>Atque assumenda mollitia incidunt officia placeat odio, quibusdam doloremque a, tenetur recusandae vitae expedita repellendus voluptatibus aliquam sint odit asperiores debitis quia tempore. Voluptates maiores aliquam iure ullam quam ipsum voluptatum voluptatibus!</p>
+        </div>
+        <div class="container-3-box">
+            <h3>Box 9</h3>
+            <p>Blanditiis magni non suscipit architecto ut, magnam beatae enim ea voluptatum soluta ipsum repellat quos odit! Dolore esse iusto possimus nihil ea aliquam natus quod! Perspiciatis saepe numquam, doloremque exercitationem eos tempora?</p>
+        </div>
+        <div class="container-3-box">
+            <h3>Box 10</h3>
+            <p>Soluta expedita odit nam accusantium sunt deserunt fuga id tempore? Eum, natus quaerat optio error laborum culpa molestiae sequi voluptatem numquam. Quidem a perspiciatis nesciunt maiores corrupti distinctio adipisci quis nam beatae!</p>
+        </div>
+        <div class="container-3-box">
+            <h3>Box 11</h3>
+            <p>Ex non error quos! Vel nobis architecto et aliquam autem eaque iusto commodi. Doloribus nulla, magnam obcaecati consectetur qui porro? Harum soluta, laborum sint optio molestias quae incidunt vel id iusto laudantium.</p>
+        </div>
+        <div class="container-3-box">
+            <h3>Box 12</h3>
+            <p>Culpa, fugit! Numquam atque eos qui aut voluptatibus quae vitae, repellendus et sapiente necessitatibus nam deleniti dolorem maiores cum ex, explicabo vel aliquam asperiores officia illum nobis eligendi. Facilis dolorem voluptas est.</p>
+        </div>
+    </div>
+</body>
+
+</html>
